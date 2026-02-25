@@ -1,5 +1,6 @@
 <linker>
   <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="CustomBlendModes.SpriteBlendingMode" preserve="all" />
     <type fullname="DLS.Arithmetic.ArithmeticModel" preserve="all" />
     <type fullname="DLS.Arithmetic.ArithmeticUnit" preserve="all" />
     <type fullname="DLS.Battle.HPBar" preserve="all" />
@@ -15,6 +16,8 @@
     <type fullname="DLS.Enemy.BossUnit" preserve="all" />
     <type fullname="DLS.Enemy.EnemyModel" preserve="all" />
     <type fullname="DLS.Enemy.EnemyUnit" preserve="all" />
+    <type fullname="DLS.UITitle" preserve="all" />
+    <type fullname="Somggori.Battle.DLSGraphicController" preserve="all" />
     <type fullname="Somggori.Battle.GraphicController" preserve="all" />
     <type fullname="Somggori.Battle.MoveComponentDirection" preserve="all" />
     <type fullname="Somggori.Battle.MoveComponentJoystick" preserve="all" />
