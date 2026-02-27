@@ -25,6 +25,7 @@
     <type fullname="Somggori.Battle.MoveComponentDirection" preserve="all" />
     <type fullname="Somggori.Battle.MoveComponentJoystick" preserve="all" />
     <type fullname="Somggori.Battle.MoveComponentTarget" preserve="all" />
+    <type fullname="Somggori.Battle.MoveComponentVelocity" preserve="all" />
     <type fullname="DLS.Battle.StageData" preserve="nothing" serialized="true" />
     <type fullname="DLS.Enemy.BossResourceByHp" preserve="nothing" serialized="true" />
   </assembly>
