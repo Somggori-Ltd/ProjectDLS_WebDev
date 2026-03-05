@@ -6,6 +6,7 @@
     <type fullname="DLS.Arithmetic.ArithmeticModel" preserve="all" />
     <type fullname="DLS.Arithmetic.ArithmeticUnit" preserve="all" />
     <type fullname="DLS.Battle.BossGraphicController" preserve="all" />
+    <type fullname="DLS.Battle.BossHPBar" preserve="all" />
     <type fullname="DLS.Battle.DLSGraphicController" preserve="all" />
     <type fullname="DLS.Battle.HPBar" preserve="all" />
     <type fullname="DLS.Battle.ObjSkillArrow" preserve="all" />
@@ -21,6 +22,7 @@
     <type fullname="DLS.Enemy.EnemyModel" preserve="all" />
     <type fullname="DLS.Enemy.EnemyUnit" preserve="all" />
     <type fullname="DLS.UITitle" preserve="all" />
+    <type fullname="Somggori.Battle.DamageText" preserve="all" />
     <type fullname="Somggori.Battle.GraphicController" preserve="all" />
     <type fullname="Somggori.Battle.MoveComponentJoystick" preserve="all" />
     <type fullname="Somggori.Battle.MoveComponentTarget" preserve="all" />
@@ -45,7 +47,6 @@
     <type fullname="TMPro.FaceInfo_Legacy" preserve="nothing" serialized="true" />
     <type fullname="TMPro.FontAssetCreationSettings" preserve="nothing" serialized="true" />
     <type fullname="TMPro.KerningTable" preserve="nothing" serialized="true" />
-    <type fullname="TMPro.TMP_Character" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_FontFeatureTable" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_FontWeightPair" preserve="nothing" serialized="true" />
     <type fullname="TMPro.VertexGradient" preserve="nothing" serialized="true" />
@@ -97,11 +98,6 @@
   </assembly>
   <assembly fullname="UnityEngine.TextCoreFontEngineModule">
     <type fullname="UnityEngine.TextCore.FaceInfo" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.TextCore.Glyph" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.TextCore.GlyphMetrics" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.TextCore.GlyphRect" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.TextCore.LowLevel.GlyphAdjustmentRecord" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.TextCore.LowLevel.GlyphPairAdjustmentRecord" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.TextCore.LowLevel.GlyphValueRecord" preserve="nothing" serialized="true" />
   </assembly>
 </linker>
