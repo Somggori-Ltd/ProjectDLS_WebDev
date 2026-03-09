@@ -21,6 +21,7 @@
     <type fullname="DLS.Enemy.BossUnit" preserve="all" />
     <type fullname="DLS.Enemy.EnemyModel" preserve="all" />
     <type fullname="DLS.Enemy.EnemyUnit" preserve="all" />
+    <type fullname="DLS.Enemy.ObjBossSkill_BlackOut" preserve="all" />
     <type fullname="DLS.UITitle" preserve="all" />
     <type fullname="Somggori.Battle.DamageText" preserve="all" />
     <type fullname="Somggori.Battle.GraphicController" preserve="all" />
@@ -94,6 +95,7 @@
   </assembly>
   <assembly fullname="UnityEngine.UIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Canvas" preserve="all" />
+    <type fullname="UnityEngine.CanvasGroup" preserve="all" />
     <type fullname="UnityEngine.CanvasRenderer" preserve="all" />
   </assembly>
   <assembly fullname="UnityEngine.TextCoreFontEngineModule">
