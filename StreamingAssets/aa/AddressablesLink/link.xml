@@ -12,8 +12,10 @@
     <type fullname="DLS.Battle.ObjSkillArrow" preserve="all" />
     <type fullname="DLS.Battle.ObjSkillMissile" preserve="all" />
     <type fullname="DLS.Battle.StageModel" preserve="all" />
+    <type fullname="DLS.Battle.UIBattleDefeat" preserve="all" />
     <type fullname="DLS.Battle.UIBattleMain" preserve="all" />
     <type fullname="DLS.Battle.UIBattleResult" preserve="all" />
+    <type fullname="DLS.Battle.UIBattleWin" preserve="all" />
     <type fullname="DLS.Battle.UIScreenFitEffect" preserve="all" />
     <type fullname="DLS.Companion.CompanionModel" preserve="all" />
     <type fullname="DLS.Companion.CompanionMoveComponent" preserve="all" />
@@ -53,6 +55,7 @@
     <type fullname="TMPro.FaceInfo_Legacy" preserve="nothing" serialized="true" />
     <type fullname="TMPro.FontAssetCreationSettings" preserve="nothing" serialized="true" />
     <type fullname="TMPro.KerningTable" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_Character" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_FontFeatureTable" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_FontWeightPair" preserve="nothing" serialized="true" />
     <type fullname="TMPro.VertexGradient" preserve="nothing" serialized="true" />
@@ -112,6 +115,8 @@
   </assembly>
   <assembly fullname="UnityEngine.TextCoreFontEngineModule">
     <type fullname="UnityEngine.TextCore.FaceInfo" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.TextCore.Glyph" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.TextCore.GlyphMetrics" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.TextCore.GlyphRect" preserve="nothing" serialized="true" />
   </assembly>
 </linker>
