@@ -40,7 +40,7 @@
 
         document.body.style.textAlign = "left";
 
-      } else {
+      }else {
         <!-- else 문 추가 -->
         var canvas = document.querySelector("#unity-canvas");
         canvas.style.width = "100vw";
@@ -49,14 +49,13 @@
 
       createUnityInstance(document.querySelector("#unity-canvas"), {
         arguments: [],
-        dataUrl: "Build/9a2f35a28fac4fede81f7f2f1befcf27.data.unityweb",
+        dataUrl: "Build/01f0003f7e9d71e2eedd573bb79b8cea.data.unityweb",
         frameworkUrl: "Build/c543b862982f9ee4e60ab0c544df0906.framework.js.unityweb",
         codeUrl: "Build/12bbe8e6d5b40286e17b8dedcee195c9.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Somggori",
         productName: "ProjectDLS",
         productVersion: "1.0",
-        <!-- 원래 주석되있던거 주석 해제하고 값 변경하기 -->
         matchWebGLToCanvasSize: true, // Uncomment this to separately control WebGL canvas render size and DOM element size.
         devicePixelRatio: window.devicePixelRatio, // Uncomment this to override low DPI rendering on high DPI displays.
       }).then((unityInstance) => {
